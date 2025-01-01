@@ -22,6 +22,6 @@ def solution(answers):
     
     for i in range(len(scores)):
         if scores[i] == max_value:
-            answer.append(i + 1)
+            answer.append(i + 1) # 인덱스 + 1을 넣어주기 (1, 2, 3)
     
     return answer
