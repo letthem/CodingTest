@@ -4,6 +4,7 @@ def solution(brown, yellow):
     # x * 2 + y * 2 - 4 = brown
     # (x - 2) * (y - 2) = yellow
     
+    
     temp = int((brown + 4) / 2 - 2)
     
     # 초기화
@@ -22,13 +23,3 @@ def solution(brown, yellow):
     arr.append(y)
     
     return arr
-
-    
-    
-    # if (arr[0] < arr[1]) :
-    #     temp = arr[0]
-    #     arr[0] = arr[1]
-    #     arr[1] = temp
-
-    # return (arr)
-    return
